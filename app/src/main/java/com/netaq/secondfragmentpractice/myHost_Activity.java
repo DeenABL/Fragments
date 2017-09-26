@@ -30,7 +30,7 @@ public class myHost_Activity extends AppCompatActivity {
         adapter = new CustomSwipeAdapter(this);
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
-        tabLayout.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
+        tabLayout.setBackgroundColor(getResources().getColor(R.color.colorPrimary));
         //tabLayout.setTabTextColors(R.color.colorAccent);
     }
 
